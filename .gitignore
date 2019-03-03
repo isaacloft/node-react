@@ -22,7 +22,9 @@
 *.rar
 *.tar
 *.zip
-
+# special files #
+######################
+keys.js
 # Logs and databases #
 ######################
 *.log
