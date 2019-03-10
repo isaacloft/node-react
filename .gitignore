@@ -24,7 +24,7 @@
 *.zip
 # special files #
 ######################
-keys.js
+dev.js
 # Logs and databases #
 ######################
 *.log
