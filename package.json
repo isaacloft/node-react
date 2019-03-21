@@ -8,8 +8,8 @@
     "npm": "5.0.3"
   },
   "scripts": {
-    "start": "node --inspect index.js",
-    "server": "nodemon --inspect index.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
