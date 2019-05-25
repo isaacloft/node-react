@@ -44,9 +44,7 @@ const Header = props => {
   return (
     <nav>
       <div className="nav-wrapper">
-        <Link
-          to={props.authUser ? '/surveys' : '/'}
-          className="left brand-logo">
+        <Link to={props.authUser ? '/surveys' : '/'} className="left brand-logo">
           Emaily
         </Link>
         <ul className="right">{renderContent()}</ul>
